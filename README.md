@@ -1,16 +1,74 @@
-# React + Vite
+# Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Todo List application built with **React.js** and **CSS**.
 
-Currently, two official plugins are available:
+The app allows users to create, complete, delete, and filter tasks with a clean and responsive interface for both desktop and mobile screens.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Add new todos
+* Mark todos as completed
+* Delete todos
+* Filter todos by All, Active, and Completed
+* Clear completed todos
+* Display the number of active items
+* Responsive design for desktop and mobile
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+* React.js
+* JavaScript
+* CSS
+* Vite
+* HTML5
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/HegaziShehata/todo-app.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd todo-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal to view the application.
+
+## Project Structure
+
+```text
+todo-app/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+└── README.md
+```
+
+## Author
+
+**Hegazi Shehata**
+
+Front-End Developer | React.js
